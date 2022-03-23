@@ -38,6 +38,12 @@ main {
 form {
 	width: 70%;
 }
+.form-control{
+    border-radius: 20px;
+}
+.btn{
+    border-radius: 20px;
+}
 #delivery-method {
 	font-family: Roboto;
 	/* font-size: 30px; */
