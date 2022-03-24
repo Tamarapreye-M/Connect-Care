@@ -14,9 +14,15 @@
 		<link rel="stylesheet" href="/Stylesheets/payment.css" />
 	</head>
 	<body>
-        <section class="profile">
-            
-        </section>
+		<section class="profile my-5">
+			<div class="profile-div mx-auto">
+				<img class="mx-2" src="/Images/Profile pic.png" alt="" />
+				<form action="">
+					<label for="patientId" class="form-label fw-1">Patient ID</label>
+					<input type="text" class="form-control" id="formGroupExampleInput" />
+				</form>
+			</div>
+		</section>
 		<section class="payment px-3 pt-5">
 			<div class="payment-div p-3">
 				<h3 class="my-5 text-center">Choose a Payment method</h3>
@@ -30,7 +36,7 @@
 				<form action="" class="mb-5">
 					<div class="row">
 						<div class="mb-3 col-lg-8">
-							<label for="formGroupExampleInput" class="form-label"
+							<label for="creditCard" class="form-label"
 								>Credit Card Number</label
 							>
 							<input
@@ -40,9 +46,7 @@
 							/>
 						</div>
 						<div class="mb-3 col-lg-4">
-							<label for="formGroupExampleInput" class="form-label"
-								>Expiry date</label
-							>
+							<label for="cvv" class="form-label">CVV</label>
 							<input
 								type="text"
 								class="form-control"
@@ -52,7 +56,7 @@
 					</div>
 					<div class="row">
 						<div class="mb-3 col-lg-8">
-							<label for="formGroupExampleInput" class="form-label"
+							<label for="cardOwner" class="form-label"
 								>Card Owner's Name</label
 							>
 							<input
@@ -62,9 +66,7 @@
 							/>
 						</div>
 						<div class="mb-3 col-lg-4">
-							<label for="formGroupExampleInput" class="form-label"
-								>Expiry date</label
-							>
+							<label for="expiryDate" class="form-label">Expiry date</label>
 							<input
 								type="text"
 								class="form-control"

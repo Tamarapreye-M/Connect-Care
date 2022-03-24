@@ -2,6 +2,15 @@
 	margin: 0;
 	padding: 0;
 }
+.profile {
+    display: flex !important;
+}
+.profile-div{
+	display: flex;
+}
+.profile-div img{
+    width: 20%;
+}
 .payment {
 	width: 100%;
 	display: flex;
@@ -13,6 +22,7 @@
 	border: 1px solid #0066ff;
 	border-radius: 20px;
 }
+
 .payment form {
 	width: 100%;
 }
