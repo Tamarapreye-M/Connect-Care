@@ -26,8 +26,9 @@ a {
 	justify-content: space-between;
 	align-items: center;
 }
-.payment-div{
-    border: 1px solid #0066ff;
+.payment-div {
+	border: 1px solid #0066ff;
+	border-radius: 20px;
 }
 .payment form {
 	width: 100%;
@@ -35,13 +36,17 @@ a {
 .icons {
 	width: 30%;
 }
-.icon-div{
-    width: 80%;
-    margin: auto;
+.icon-div {
+	width: 80%;
+	margin: auto;
 }
 .icons img {
 	max-width: 100%;
 }
+.button-div {
+	display: flex !important;
+}
+
 .shipping {
 	width: 100%;
 	display: flex;
@@ -66,7 +71,6 @@ label {
 	color: #3f83ff;
 }
 .table-div {
-	width: 35%;
 	border: 1px solid #0066ff;
 	border-radius: 20px;
 	color: #3f83ff;
