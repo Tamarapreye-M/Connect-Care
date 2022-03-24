@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+nav{
+    width: 1440px;
+    height: 118px;
+    background-color: #0066FF1F;
+    color: black;
+}
+.button{
+    border-inline-color: transparent;
+    cursor: pointer;
+    border-radius: 15px;
+    height: 10px;
+}
+button:hover{
+    background-color: aqua;
+    color: black;
+
+}
+@media screen { 
+    width: 50%;
+    
+}
