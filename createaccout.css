@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+:root {
+  --mainRed: #ef231c;
+  --mainWhite: #fff;
+  --lightBlue: #48e9ff;
+  --darkblue: #0066ff;
+  --Roboto: "Roboto", sans-serif;
+}
+.navbar {
+  background: rgba(61, 137, 250, 0.12);
+  font-family: var(--Roboto);
+}
+.navbar-brand {
+  color: white;
+}
+.nav-item a {
+  color: black;
+}
+#blu:hover {
+  color: var(--darkblue) !important;
+}
+.nav-link .btn {
+  border-radius: 13px;
+}
+.btn {
+  border-radius: 0.9rem;
+}
+#login {
+  background-color: var(--darkblue);
+  color: var(--mainWhite);
+}
+#login:hover {
+  border: 1px solid var(--lightBlue);
+  background-color: var(--mainWhite);
+  color: var(--darkblue);
+}
+#emergency-btn {
+  color: var(--mainRed);
+  border: 1px solid var(--mainRed);
+}
+#emergency-btn:hover {
+  background-color: var(--mainRed);
+  color: var(--mainWhite);
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,500&family=Poppins:wght@100;200;300;400&family=Roboto:ital,wght@0,300;1,100;1,300;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Roboto Condensed;
+}
+/* }
+body{
+ font-family: (https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,500&family=Poppins:wght@100;200;300;400&family=Roboto:ital,wght@0,300;1,100;1,300;1,400&display=swap"); 
+} */
+/* #container{
+ background: white;
+ border: 2px solid;
+ 
+} */
+input {
+  padding: 0%;
+}
+#text::placeholder {
+  color: black;
+  font-size: 18px;
+  margin: 0%;
+}
+#body {
+  width: 85%;
+}
+#button {
+  padding: 2rem 5rem;
+  padding-left: px;
+}
+form {
+  width: 100%;
+  margin: auto;
+}
+@media only screen and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+}
+/* <link href="(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,500&family=Poppins:wght@100;200;300;400&family=Roboto:ital,wght@0,300;1,100;1,300;1,400&display=swap"); rel="stylesheet"> */
+
+footer {
+  background: #8b8282;
+  position: absolute;
+  margin-top: -150px;
+  z-index: -1;
+  padding-top: 120px;
+}
+ul {
+  list-style-type: none;
+}
+
+.letter {
+  margin-left: 30px;
+}
+ul a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #0066ff;
+}
+
+.rect {
+  padding: 3rem 0.1rem;
+  background: #0066ff;
+}
+
+.circle1 {
+  color: #0066ff;
+
+  border-radius: 50%;
+  padding: 20px;
+  background-color: white;
+}
