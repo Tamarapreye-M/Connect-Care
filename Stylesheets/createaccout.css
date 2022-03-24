@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,500&family=Poppins:wght@100;200;300;400&family=Roboto:ital,wght@0,300;1,100;1,300;1,400&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   font-family: Roboto Condensed;
+
+}
+/* }
+body{
+ font-family: (https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,500&family=Poppins:wght@100;200;300;400&family=Roboto:ital,wght@0,300;1,100;1,300;1,400&display=swap"); 
+} */
+/* #container{
+ background: white;
+ border: 2px solid;
+ 
+} */
+input{
+   padding: 0%;
+}
+#text::placeholder{
+   color: black;
+   font-size: 18px;
+   margin: 0%;
+
+}
+#body{
+   width: 85%;
+}
+#button {
+   padding: 2rem 5rem;
+   padding-left: px;
+}
+form{
+   width: 100%;
+   margin: auto;
+}
+@media only screen and (max-Width: 700px){
+   .container{
+      flex-direction: column;
+   }
+   
+}
+/* <link href="(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,500&family=Poppins:wght@100;200;300;400&family=Roboto:ital,wght@0,300;1,100;1,300;1,400&display=swap"); rel="stylesheet"> */
