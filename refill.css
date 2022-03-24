@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,500&family=Poppins:wght@100;200;300;400&family=Roboto:ital,wght@0,300;1,100;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+#box input {
+  box-shadow: 1px 1px 1px 1px;
+  border-bottom: 1px;
+  border-top: 0;
+  color: rgba(120, 158, 158, 0.432);
+}
+#box label {
+  padding: 2px 0px 2px 0px;
+  font-size: 20px;
+}
+@media screen and (max-width: 700px) {
+  .container {
+    width: 50%;
+  }
+}
+#all {
+  width: 90%;
+}
+footer {
+  background: #8b8282;
+  position: absolute;
+  margin-top: -150px;
+  z-index: -1;
+  padding-top: 120px;
+}
+ul {
+  list-style-type: none;
+}
+
+.letter {
+  margin-left: 30px;
+}
+ul a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #0066ff;
+}
+
+.rect {
+  padding: 3rem 0.1rem;
+  background: #0066ff;
+}
+
+.circle1 {
+  color: #0066ff;
+
+  border-radius: 50%;
+  padding: 20px;
+  background-color: white;
+}
