@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Stylesheets/cart.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Cart Page</title>
+  </head>
+  <body>
+    <!-- start of header -->
+    <header class="d-flex justify-content-between px-5 py-5 my-5 ms-auto">
+      <div><h1>Your shopping cart</h1></div>
+      <div class="imgcart">
+        <a href="#">
+          <i class="fa-solid fa-cart-shopping img-fluid"></i>
+        </a>
+      </div>
+    </header>
+
+    <div class="d-flex justify-content-between px-5 py-5 my-5 ms-auto">
+      <div class="child1">
+        <h2>1</h2>
+      </div>
+      <div class="text">
+        <h2 class="fs-1">Flucor day</h2>
+        <p class="fs-3">$17</p>
+        <p class="fs-3">Delivered in 1-2 days</p>
+      </div>
+      <div class="child2" id="icon">
+        <i class="fa-regular fa-square-plus"></i>
+        <span class="fs-2 px-1">1</span>
+        <i class="fa-regular fa-square-minus"></i>
+      </div>
+    </div>
+    <hr />
+    <!-- end of header -->
+
+    <!-- start of box  -->
+
+    <!-- start of box 1 -->
+    <div class="container-fluid px-3 mt-5 me-5 pb-5" id="box">
+      <div class="contain pt-2 pb-5">
+        <div class="d-flex justify-content-between pt-5 ps-5 pe-5">
+          <div class="child3 fs-2"><h3>Sub-total</h3></div>
+          <div class="child4 fs-2"><h3>NGN1475</h3></div>
+        </div>
+        <!-- end of box 1 -->
+
+        <!-- start of box 2 -->
+        <div class="d-flex justify-content-between pt-2 ps-5 pe-5">
+          <div class="child3 fs-2"><h3>Delivery</h3></div>
+          <div class="child4 fs-2"><h3>NGN575</h3></div>
+        </div>
+      </div>
+      <hr class="black" />
+      <!-- end of box 2 -->
+      <!-- start of box 3 -->
+      <div class="d-flex justify-content-between pt-2 ps-5 pe-5 pb-5">
+        <div class="child3"><h3>Total</h3></div>
+        <div class="child4"><h3>NGN2050</h3></div>
+      </div>
+    </div>
+
+    <!-- end of box 3 -->
+    <!-- end of box  -->
+    <!-- start of card  -->
+    <div class="cardblue text-center mt-5 py-5 px-5 mb-5 pb-5">
+      <p class="fs-1 py-2 pb-5">We don't have your delivery address</p>
+      <p class="fs-1 mb-4 pb-5">
+        Please create a quick account or login so we <br />
+        know where to send your order.
+      </p>
+    </div>
+
+    <!-- end of card  -->
+    <!-- buttons  -->
+    <div class="text-center" id="butt">
+      <div>
+        <button
+          type="button"
+          class="btn btn-primary btn-lg px-5 fs-3 mb-4"
+          id="buttn"
+        >
+          CREATE ACCOUNT
+        </button>
+      </div>
+      <div>
+        <a class="btn fs-3 text-primary" href="#" role="button" id="buttn">
+          Back to shop
+        </a>
+      </div>
+    </div>
+    <!-- end of buttons  -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
