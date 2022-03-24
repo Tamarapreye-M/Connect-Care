@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,500&family=Poppins:wght@100;200;300;400&family=Roboto:ital,wght@0,300;1,100;1,300;1,400&display=swap');
+*{
+ margin: 0;
+ padding: 0;   
+}
+.body{
+   width: 80%;
+   margin: auto;
+}
+#box{
+   box-shadow: 2px 2px 3px 2px;
+   border-top: 0;
+   color:rgb(245, 235, 235);
+}
+#link{
+   padding-left: 30px;
+}
+img{
+   width: 70%;
+}
+@media screen and (max-width: 700px) {
+ .body{
+   width: 50%;
+ }
+}

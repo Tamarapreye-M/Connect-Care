@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,500&family=Poppins:wght@100;200;300;400&family=Roboto:ital,wght@0,300;1,100;1,300;1,400&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+}
+#box input{
+   box-shadow: 1px 1px 1px 1px;
+   border-bottom: 1px;
+   border-top: 0;
+   color: rgba(120, 158, 158, 0.432);
+}
+#box label{
+   padding: 2px 0px 2px 0px;
+   font-size: 20px;
+}
+@media screen and (max-width:700px) {
+ .container{
+    width: 50%;
+ }
+}
+#all{
+   width: 90%;
+}
+body{
+   font-family: Roboto Condensed;
+
+}

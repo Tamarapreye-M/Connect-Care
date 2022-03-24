@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,500&family=Poppins:wght@100;200;300;400&family=Roboto:ital,wght@0,300;1,100;1,300;1,400&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+}
+#body{
+   width: 90%;
+   margin: auto;
+   box-shadow: 1px 2px 2px 0px;
+   border-top: 0;
+   border: 1px solid rgba(243, 217, 217, 0.712);
+}
+/* body{
+   background-color: #E5E5E5
+} */
+.card-body{
+ font-family: Roboto Condensed;
+ font-size: 40px;
+}
+.text .order{
+   color: rgba(150, 155, 122, 0.925);
+   font-family: Roboto Condensed;
+}
+@media screen and (max-width:700px) {
+   .container{
+      width: 60%;
+   }
+}
+.image{
+   width: 50%;
+   padding: 0px 0px 0px; 
+   margin: 0;
+   align-items: center;
+}
+.img{
+   width: 10%;
+   background-color: white;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
