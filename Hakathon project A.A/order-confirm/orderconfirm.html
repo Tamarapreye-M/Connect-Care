@@ -9,33 +9,124 @@
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,500&family=Poppins:wght@100;200;300;400&family=Roboto:ital,wght@0,300;1,100;1,300;1,400&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="./orderconfirm.css">
 </head>
-<body class="contaner-fluid ms-auto mt-5">
-   <div class="text-center"  id="body">
-      <div class="card-body">
-        <h5 class="text fs-3">Your Order has been been received</h5> 
+<body>
+   <nav class="navbar navbar-expand-lg mb-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="logo w-50" src="../Images/logo3.png" alt="logo3"></a>
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active text-dark mx-3" id="blu" aria-current="page" href="#">Home</a>
+            <a class="nav-link text-dark mx-3" id="blu" href="#about">About us</a>
+            <a class="nav-link text-dark mx-3"id="blu" href="#">Product</a>
+            <a class="nav-link btn mx-3 px-3 py-2" href="#" id="emergency-btn">Emergency</a>
+            <a class="nav-link btn mx-3 px-3 py-2" href="#" id="login">Login</a>
+          </div>
+        </div>
       </div>
-      <div class="img-center">
-       <img src="./Ellipse 2.png" alt="">
-      </div>
-      <div class="img-center position-absolute">
-         <img src="./Vector.png" alt="">
-      </div>
-       
-   
-      <div class="card-body pb-4">
-         <h6 class="text fs-5">Thank you for your purchase!<h6>
-         <div class="text ">
-         <p class="order"> Your order ID is : 13267890453 </p></div>
-         <br>
-         <p class="text p-1"> You will received confirmation email with details of your order.</p>
-         <div class=" btn p-1"> 
-            <a href="#" class="btn btn-primary fs-4 text-uppercase">continue shopping</a>
+    </nav>
+
+    <div class="contaner-fluid ms-auto mt-5">
+      <div class="text-center"  id="body">
+         <div class="card-body">
+           <h5 class="text fs-3">Your Order has been been received</h5> 
          </div>
+         <div class="img-center">
+          <img src="./Ellipse 2.png" alt="">
+         </div>
+         <div class="img-center position-absolute">
+            <img src="./Vector.png" alt="">
+         </div>
+          
+      
+         <div class="card-body pb-4">
+            <h6 class="text fs-5">Thank you for your purchase!<h6>
+            <div class="text ">
+            <p class="order"> Your order ID is : 13267890453 </p></div>
+            <br>
+            <p class="text p-1"> You will received confirmation email with details of your order.</p>
+            <div class=" btn p-1"> 
+               <a href="#" class="btn btn-primary fs-4 text-uppercase">continue shopping</a>
+            </div>
+   
+         </div>
+   
+      </div>
+    </div>
+   
+    <footer class="space">
+      <div class="container-fluid p-5">
+        <div class="row text-left">
+          <div class="col-lg-3 col-md-5 col-sm-12">
+            <!-- <h1 class="text-light">About Us</h1> -->
+            
+            <span><center><img src="../Images/logo3.png" class="w-75" alt=""></center></span>
+			<br/><br/>
+            <p class="text-white">
+              Extreme service by prioritizing the safety and security of patientsExtreme service by prioritizing the safety and security of patients
+            </p>
+              <div class="column socials text-muted">
+              <i class="fa-brands fa-facebook text-white"></i>
+              <i class="fa-brands fa-instagram text-white"></i>
+              <i class="fa-brands fa-twitter text-white"></i>
+              <i class="fa-brands fa-youtube text-white"></i>
+            </div>
 
+           
+          </div>
+
+          <!-- <div class="col-lg-3 col-md-3 col-sm-12">
+
+          </div> -->
+          <div class="col-lg-7 col-md-7 col-sm-12 mx-auto ">
+            <!-- <h4 class="text-light">Follow Us</h4>
+            <p class="text-muted">Let Us Be Social</p>
+            <div class="column text-muted">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div> -->
+            <ul >
+              <div class="d-flex move">
+              <li class="flex-fill"><a href="#">Home</a></li>
+              <li class="flex-fill" ><a href="#">About Us </a></li>
+              <li class="flex-fill"><a href="#">Services</a></li>
+              <li class="flex-fill"><a href="#">Pharmacies</a></li>
+              </div>
+              <br>
+              <div class="d-flex">
+              <li class="flex-fill"><a href="#">Patient's review</a></li>
+              <li class="flex-fill"><a href="#">Terms and conditions</a></li>
+              <li class="flex-fill"><a href="#">Privacy Policy</a></li>
+              </div>
+            </ul>
+            <div class="letter">
+           <h4 class="text-white">Newsletter</h4>
+            <p class="text-white">Stay Updated</p>
+            <!-- create an inline form for email -->
+            <form action="#" class="form-inline">
+              <div class="col pt-0">
+                <div class="input-group ">
+                  <input type="email" class="form-control bg-dark text-white " placeholder="Email"> 
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <!-- generate arrow right with font awesome -->
+                      <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+              
+            </div>
+          </div>
+        </div>
       </div>
 
-   </div>
-
+    </footer>
 
 
 
