@@ -121,11 +121,13 @@ footer
     background: #8B8282;
     z-index: -1;
     padding-top: 50px;
+    width: 100%;
 }
 footer  ul
 {
     display: unset;
     list-style-type: none;
+    
     
 }
 .letter
